@@ -43,12 +43,11 @@ public class MainActivity extends AppCompatActivity {
                 points++;
                 Toast.makeText(this,"cool",Toast.LENGTH_SHORT).show();
             } else {
-
                 points--;
                 Toast.makeText(this,"Aww",Toast.LENGTH_SHORT).show();
             }
 
-            //update screnn
+            //update screen
         TextView tv = (TextView) findViewById(R.id.final_score);
         tv.setText("points: " + points);
         randomNumber();
